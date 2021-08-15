@@ -1,12 +1,10 @@
 /*START LIGNE GENERAL */
 .conteneur
 {
-    margin:0 auto 40px auto;
     max-width:1400px;  
 }
 html,body 
 {
-    margin-top: 0px;
     font-family: Raleway, Arial, Helvetica, sans-serif;
 }
 .flexcenter 
@@ -382,15 +380,7 @@ input[type="search" i]
     justify-content: center;
 }
 @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
-.mobilecolumn
-{
-    flex-direction: column;
-}
-.mobilefiltrewrap 
-{
-    flex-direction: column;
-    align-items: flex-start;
-}
+
 .filtretexteicons 
 {
     margin-bottom: 20px;
