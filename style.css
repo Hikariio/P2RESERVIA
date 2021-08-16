@@ -93,7 +93,7 @@ html,body
 {
   width: 100%;
 }
-.sizelink12
+.sizelink1_2
 {
   margin-left: 60%;
 }
@@ -380,6 +380,14 @@ input[type="search" i]
     justify-content: center;
 }
 @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+.headernav
+{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    margin-top: 2px;
+}
 
 .filtretexteicons 
 {
