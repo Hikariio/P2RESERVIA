@@ -183,6 +183,14 @@ input[type="search" i]
 {
     display: flex;
     align-items: center;
+    justify-content: flex-start;
+    align-content: center;
+    flex-direction: row;
+}
+.flexafiltre
+{
+    flex-flow:row wrap;
+    display: flex;
 }
 .margfiltre
 {
@@ -195,10 +203,15 @@ input[type="search" i]
 }
 .filtretexticons
 {
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
     border: 2px solid #f2f2f2;
     height: 50px;
     border-radius: 30px;
-    margin-right: 20px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    width: 150px;
 }
 .filtretexticons:hover > .filtretext
 {
@@ -345,7 +358,7 @@ input[type="search" i]
     background-color: blue;
     width: 20%;
     height: 400px;
-    margin: 25px 50px 75px 100px;
+    margin: 25px 0px 75px 100px;
 }
 .groupelm2
 {
@@ -383,20 +396,52 @@ input[type="search" i]
 .headernav
 {
     display: flex;
-    justify-content: space-around;
     align-items: center;
     width: 100%;
     margin-top: 2px;
+}
+.logo
+{
+    display: flex;
+    width: 50%;
+    order: 0;
+}
+.sizenav 
+{
+    height: 300px;
+    width: 100%;
+}
+.sizelinks 
+{
+    display: flex;
+    flex-flow: row wrap;
+    width: 100%;
+}
+.sizelink1_2
+{
+    margin-left: 0%;
+    width: 100%;
+    order: 2;
+}
+.sizelink 
+{
+    width: 50%;
+    height: 99px;
+}
+.order
+{
+    display: flex;
+    order: 1;
 }
 
 .filtretexteicons 
 {
     margin-bottom: 20px;
 }
-#hebergements 
+.filtre
 {
-    flex-direction: column-reverse;
-    width: 100%;
+    display: flex;
+    flex-flow: column;
 }
 #Titre
 {
@@ -426,6 +471,7 @@ input[type="search" i]
 }
 #Activité
 {
+    display: flex;
     flex-direction: column;
     align-items: center;
 }
