@@ -216,6 +216,7 @@ input[type="search" i]
 .margfiltretitle
 {
     margin-right: 20px;
+    
 }
 .filtretexticons
 {
@@ -242,10 +243,9 @@ input[type="search" i]
 {
     height: 50px;
     padding-left: 20px;
-    padding-right: 20px;
-    border-radius: 0 25px 25px 0;
+    padding-right: 20px;  
 }
-.flexafiltre .structurefiltre i
+.flexafiltre i
 {
     border-radius: 25px;
     width: 52px;
@@ -255,13 +255,15 @@ input[type="search" i]
     font-size: 1.33333em;
     display: flex !important;
     justify-content: center;
-    align-items: center;
-    border: 2px solid #f2f2f2;
+    align-items: center;;
+    
 }
 .structurefiltre
 {
     display: flex;
-
+    border: 3px solid #F2F2F2;
+    border-radius: 30px;
+    margin-left: 15px;
 }
 
 
@@ -351,7 +353,7 @@ input[type="search" i]
     height: 112px;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
-    padding: 5px 5px 0 5px;
+    padding: 1px 1px 1px 1px;
 }
 
 .hebergement_contenu 
@@ -366,6 +368,7 @@ input[type="search" i]
 {
     padding-top: 11px;
     padding-bottom: 11px;
+    font-weight: bold
 }
 
 .price_contenu 
@@ -376,6 +379,7 @@ input[type="search" i]
 .hebergement_notation 
 {
     padding-bottom: 11px;
+    display: flex;
 }
 
 .hebergement_contenu h3,
@@ -482,7 +486,7 @@ a:hover
 
 .hebergement_notation_populaire 
 {
-    justify-content: space-between;
+    display: flex;
 }
 /*END POPULAR*/
 
