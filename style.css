@@ -302,7 +302,6 @@ input[type="search" i]
 .title_hebergements_a_marseille 
 {
     margin: 0px;
-    ;
     font-size: large;
     margin-bottom: 21px;
 }
@@ -367,18 +366,12 @@ input[type="search" i]
 .title_contenu 
 {
     padding-top: 11px;
-    padding-bottom: 11px;
     font-weight: bold
 }
 
-.price_contenu 
-{
-    padding-bottom: 11px;
-}
 
 .hebergement_notation 
 {
-    padding-bottom: 11px;
     display: flex;
 }
 
@@ -423,8 +416,8 @@ a:hover
 
 .title_les_plus_populaires 
 {
-    font-size: large;
-    margin-bottom: 25px;
+    margin-right: 50px;
+    
 }
 
 .fa-chart-line 
@@ -476,17 +469,17 @@ a:hover
 
 .title_populaire_contenu 
 {
-    padding-bottom: 14px;
+    font-weight: bold;
 }
 
-.price_populaire_contenu 
-{
-    padding-bottom: 30px;
-}
 
 .hebergement_notation_populaire 
 {
     display: flex;
+}
+.price_populaire_contenu
+{
+    padding-bottom: 35px;
 }
 /*END POPULAR*/
 
