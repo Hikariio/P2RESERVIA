@@ -360,7 +360,6 @@ input[type="search" i]
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-    padding-left: 16px;
 }
 
 .title_contenu 
