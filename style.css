@@ -198,7 +198,6 @@ input[type="search" i]
 .filtre
 {
     display: flex;
-    align-items: center;
     justify-content: flex-start;
     align-content: center;
     flex-direction: row;
@@ -216,7 +215,7 @@ input[type="search" i]
 .margfiltretitle
 {
     margin-right: 20px;
-    
+    font-size: larger;
 }
 .filtretexticons
 {
@@ -248,11 +247,11 @@ input[type="search" i]
 .flexafiltre i
 {
     border-radius: 25px;
-    width: 52px;
+    width: 45px;
     height: 52px;
     color: #0065fc;
     background-color: #deebff;
-    font-size: 1.33333em;
+    font-size: 1.1em;
     display: flex !important;
     justify-content: center;
     align-items: center;;
@@ -295,7 +294,7 @@ input[type="search" i]
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: space-around;
     margin-bottom: 56px;
 }
 
@@ -314,7 +313,7 @@ input[type="search" i]
     justify-content: space-between;
     align-content: space-between;
     border-radius: 20px;
-    padding: 44px 36px 44px 36px;
+    padding: 10px 36px 10px 36px;
     max-width: 805px;
 }
 
@@ -365,7 +364,8 @@ input[type="search" i]
 .title_contenu 
 {
     padding-top: 11px;
-    font-weight: bold
+    font-weight: bold;
+    padding-left: 10px;
 }
 
 
@@ -402,7 +402,14 @@ a:hover
     text-decoration: #0065FC;
     color: #0065FC;
 }
-
+.price_contenu 
+{
+    padding-left: 10px;
+}
+.hebergement_notation
+{
+    padding-left: 10px;
+}
 
 /*END HEBERGEMENT*/
 
@@ -415,8 +422,7 @@ a:hover
 
 .title_les_plus_populaires 
 {
-    margin-right: 50px;
-    
+    margin-right: 50px;  
 }
 
 .fa-chart-line 
@@ -631,6 +637,18 @@ a:hover
         display: flex;
         flex-flow: column;
     }
+    .filtretext
+    {
+        padding-left: 10px;
+    }
+    .structurefiltre
+    {
+        margin-bottom: 10px;
+    }
+    .margfiltre
+    {
+        margin-bottom: unset;
+    }
     #Titre
     {
         width: 100%;
@@ -679,15 +697,19 @@ a:hover
     .iconsearch
     {
         display: flex;
-        width: 40px;
+        width: 50px;
         height: 50px;
         background-color: #0065fc;
         color: white;
         font-weight: bold;
         border: none;
-        border-radius: 0 1rem 1rem 0;
+        border-radius:15px;
         align-items: center;
         justify-content: center;
+    }
+    .search
+    {
+        width: 100%;
     }
     .buttonsearch
     {
