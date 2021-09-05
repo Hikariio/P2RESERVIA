@@ -2,8 +2,8 @@
 /* Définition de la police utilisée pour le site */
 @font-face
 {
-	font-family: 'Raleway-Regular';
-	src: url('Raleway-Regular.ttf');
+	font-family:'Raleway-variableFont_wght';
+    src: url('Raleway-VariableFont_wght');
 }
 
 .conteneur
@@ -13,7 +13,7 @@
 }
 html,body 
 {
-    font-family: Raleway-Regular; 
+    font-family: Raleway-variableFont_wght, sans-serif; 
 }
 .flexcenter 
 {
