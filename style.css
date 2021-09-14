@@ -496,7 +496,11 @@ a:hover
 /*END POPULAR*/
 
 /*START ACTIVITES*/
-
+.titre_activites
+{
+    font-size: x-large;
+    font-weight: bold;
+}
 
 #Activites_a_Marseille
 {
@@ -504,25 +508,61 @@ a:hover
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
-    margin-bottom: 60px;
 }
 .activites
 {
     display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
 }
-.activite1,
-.activite2,
-.activite3,
-.activite4,
-.activite5,
-.activite6 
+.activite3
 {
+    width: 100%;
     box-shadow: 0 0 20px #00002e;
     border-radius: 20px;
+    height: 36%;
+    overflow: hidden;
+}
+
+.activite6 
+{
+    width: 100%;
+    box-shadow: 0 0 20px #00002e;
+    border-radius: 20px;
+    overflow: hidden;
+    height: 45%;
+}
+.activite2
+{
+    width: 100%;
+    box-shadow: 0 0 20px #00002e;
+    border-radius: 20px;
+    height: 57%;
+    overflow: hidden;
+}
+.activite1,
+.activite4
+{
+    width: 23%;
+    box-shadow: 0 0 20px #00002e;
+    border-radius: 20px;
+    overflow: hidden;
+}
+.activite5
+{
+    width: 100%;
+    box-shadow: 0 0 20px #00002e;
+    border-radius: 20px;
+    height: 50%;
+    overflow: hidden;
 }
 .column-activities
 {
+    display: flex;
+    width: 23%;
     flex-wrap: wrap;
+    justify-content: space-between;
+    flex-direction: column;
 }
 .photo-activities14
 {
@@ -545,14 +585,22 @@ a:hover
 .photo-activities55
 {
     width: 100%;
-    height: 200px;
+    height: 170px;
     object-fit: cover;
 }
 .photo-activities66
 {
     width: 100%;
-    height: 200px;
+    height: 150px;
     object-fit: cover;
+}
+.title_activities1
+{
+    display: flex;
+    margin-left: 20px;
+    padding-top: 10px;
+    font-weight: bold;
+    padding-bottom: 20px;
 }
 
 /*END ACTIVITES*/
