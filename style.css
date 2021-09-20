@@ -746,6 +746,29 @@ footer h3 {
         flex-direction: column;
         align-items: center;
     }
+    footer
+    {
+        flex-direction: column;
+    }
+    .activites
+    {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .sub_activites
+    {
+        min-width: 80vw;
+    }
+    .column-activities
+    {
+        min-width: 80vw;
+    }
+    .photo-activities14
+    {
+        height: unset;
+    }
     .Element1:nth-child(1), .Element4
     {
         width: 70%;
