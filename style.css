@@ -503,7 +503,7 @@ a:hover
     flex-direction: column;
     flex-wrap: wrap;
 }
-.activites
+#activites
 {
     display: flex;
     justify-content: space-between;
@@ -711,6 +711,8 @@ footer h3 {
     #liste_herbergement
     {
         background: none;
+        margin: unset;
+        max-width: 100%;
     }
     .hebergement_les_plus_populaires
     {
@@ -719,37 +721,25 @@ footer h3 {
     #container_hebergements_populaires 
     {
         margin-bottom: 25px;
-        width: 100%;
+        width: 88%;
     }
-    #Filtre
-    {
-        width: 100%;
-    }
+
     .contresultat
     {
         flex-direction: column-reverse;
     }
-    #Populaires
+    .container_item
     {
-        width: 100%;
-        height: 240px;
+        justify-content: center;
+        
     }
-    #Résultat
-    {
-        width: 100%;
-        height: 240px;
-    }
-    #Activité
-    {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
+
     footer
     {
         flex-direction: column;
+        max-width: 95%;
     }
-    .activites
+    #activites
     {
         display: flex;
         flex-direction: column;
@@ -835,6 +825,19 @@ footer h3 {
     #hebergement
     {
         flex-direction: column-reverse;
+    }
+    #liste_herbergement
+    {
+        max-width: 95%;
+        margin-top: 50px;
+    }
+    #container_hebergements_populaires
+    {
+        width: 95%;
+    }
+    .box_populaire_carte 
+    {
+        font-size: 1.3em;
     }
 
 }
