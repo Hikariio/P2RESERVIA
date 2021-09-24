@@ -850,10 +850,11 @@ footer h3 {
     {
         max-width: 95%;
         margin-top: 50px;
+        width: 99%;
     }
     #container_hebergements_populaires
     {
-        width: 95%;
+        width: 99%;
     }
     .box_populaire_carte 
     {
