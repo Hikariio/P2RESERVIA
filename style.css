@@ -880,5 +880,10 @@ footer h3 {
     {
         margin-left: 40%;
     }
+    .hebergement_populaire_contenu
+    {
+        margin-left: 10px;
+        margin: unset;
+    }
 
 }
