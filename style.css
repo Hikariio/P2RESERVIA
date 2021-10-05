@@ -1135,6 +1135,7 @@ footer h3 {
         margin-left: 10px;
         margin: unset;
     }
+    
 
 }
 @media only screen and (min-width : 834px) and (max-width : 1194px) {
@@ -1167,11 +1168,57 @@ footer h3 {
     }
     .box_carte
     {
-        
+        max-width: 220px;
+    }
+    .photo_hebergement
+    {
+        width: 220px;
     }
     footer
     {
         width: unset;
     }
 
+}
+@media only screen and (min-width : 1025px) and (max-width : 1194px) {
+    #hebergement
+    {
+        flex-direction: column-reverse;
+    }
+    #liste_herbergement
+    {
+        max-width: 95%;
+        margin-top: 50px;
+        width: 93%;
+    }
+    #container_hebergements_populaires
+    {
+        width: 94%;
+    }
+    .box_populaire_carte 
+    {
+        font-size: 1.3em;
+    }
+    .sizelink1_2
+    {
+        margin-left: 40%;
+    }
+    .hebergement_populaire_contenu
+    {
+        margin-left: 10px;
+        margin: unset;
+    }
+    .box_carte
+    {
+        max-width: 300px;
+    }
+    .photo_hebergement
+    {
+        width: 300px;
+        height: 150px;
+    }
+    footer
+    {
+        width: unset;
+    }
 }
