@@ -602,7 +602,7 @@ a:hover
 footer {
     background-color: #F2F2F2;
     display: flex;
-    width: 100%;
+    width: 99%;
     margin-top: 50px;
     padding: 20px 0 20px 20px;
 }
